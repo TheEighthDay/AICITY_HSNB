@@ -28,3 +28,5 @@ Conduct post-processing following `post-processing/README.md`.
 
 We are very grateful to the organizers for providing this opportunity for us, to explore the model in real multi-view driving videos.
 This is very meaningful. We believe it will promote the development of ai city and automatic driving.
+
+In addition, our code is built based on [ActionFormer](https://github.com/happyharrycn/actionformer_release).
