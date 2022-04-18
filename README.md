@@ -1,4 +1,7 @@
-# Pre-processing data
+# Code Release for AICITY_2022 Track3 HSNB Team
+More details can be found in our workshop paper: **MVP: Robust Multi-View Practice for Driving Action Localization**. To be updated.
+
+## Pre-processing data
 
 There are three steps and the details are explained in `README.md` under the corresponding folder:
 
@@ -7,7 +10,7 @@ There are three steps and the details are explained in `README.md` under the cor
 * pre-processing/generate_cls_csv: In this folder, we prepare  the action segment classfication labels as the csv format.
 
 
-# Method
+## Method
 
 
 There are four steps:
@@ -19,12 +22,12 @@ There are four steps:
 5. classification/README.md(Inference model to predict proposals): Classify the generated proposals.
 
 
-# Post-processing 
+## Post-processing 
 
 Conduct post-processing following `post-processing/README.md`.
 
 
-# Acknowledgment 
+## Acknowledgment 
 
 We are very grateful to the organizers for providing this opportunity for us, to explore the model in real multi-view driving videos.
 This is very meaningful. We believe it will promote the development of ai city and automatic driving.
