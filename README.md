@@ -1,7 +1,7 @@
 # Code Release for AICITY_2022 Track3 HSNB Team
 More details can be found in our workshop paper: **MVP: Robust Multi-View Practice for Driving Action Localization**. To be updated.
 
-## Pre-processing data
+## Pre-processing
 
 There are three steps and the details are explained in `README.md` under the corresponding folder:
 
@@ -15,11 +15,11 @@ There are three steps and the details are explained in `README.md` under the cor
 
 There are four steps:
 
-1. classification/README.md(Train model): Train the basic classification model for  action segments.
-2. classification/README.md(Inference model to extract features): Use the well-trained classification model to extract snippet features.
-3. proposal_extract/README.md(Train and inference model): Use the snippet features to the train temporal location model, and infercence test dataset to generate proposals.
-4. proposal_extract/README.md(Convert format): Convert proposals from pkl format to csv format.
-5. classification/README.md(Inference model to predict proposals): Classify the generated proposals.
+1. `classification/README.md(Train model)`: Train the basic classification model for  action segments.
+2. `classification/README.md(Inference model to extract features)`: Use the well-trained classification model to extract snippet features.
+3. `proposal_extract/README.md(Train and inference model)`: Use the snippet features to the train temporal location model, and infercence test dataset to generate proposals.
+4. `proposal_extract/README.md(Convert format)`: Convert proposals from pkl format to csv format.
+5. `classification/README.md(Inference model to predict proposals)`: Classify the generated proposals.
 
 
 ## Post-processing 
