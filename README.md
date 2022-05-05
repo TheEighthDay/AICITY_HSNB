@@ -13,7 +13,7 @@ There are three steps and the details are explained in `README.md` under the cor
 ## Method
 
 
-There are four steps:
+There are five steps:
 
 1. `classification/README.md(Train model)`: Train the basic classification model for  action segments.
 2. `classification/README.md(Inference model to extract features)`: Use the well-trained classification model to extract snippet features.
