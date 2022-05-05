@@ -1,6 +1,5 @@
 work_path=$(dirname $0)
-PYTHONPATH=$PYTHONPATH:./slowfast GLOG_vmodule=MemcachedClient=-1 \
-srun --mpi=pmi2 -p GVT -n1 --gres=gpu:8 --ntasks-per-node=1 --cpus-per-task=40 --comment=spring-submit --job-name ex_dash \
+PYTHONPATH=$PYTHONPATH:../../slowfast \
 python tools/run_extract.py \
   --cfg $work_path/config.yaml \
   DATA.PATH_TO_DATA_DIR /mnt/lustre/tiankaibin/aicity/actionformer_release_aicity/data/extract_split_128_stride8 \

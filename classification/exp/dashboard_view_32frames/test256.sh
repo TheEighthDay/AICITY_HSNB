@@ -1,6 +1,5 @@
 work_path=$(dirname $0)
-PYTHONPATH=$PYTHONPATH:./slowfast GLOG_vmodule=MemcachedClient=-1 \
-srun --mpi=pmi2 -p GVT -n1 --gres=gpu:4 --ntasks-per-node=1 --cpus-per-task=20 --comment=spring-submit --job-name sf \
+PYTHONPATH=$PYTHONPATH:../../slowfast \
 python tools/run_net_ema.py \
   --cfg $work_path/config.yaml \
   DATA.PATH_TO_DATA_DIR /mnt/lustre/tiankaibin/aicity/data \
